@@ -1,0 +1,88 @@
+
+
+--Blue: hsl(246, 80%, 60%);
+
+--Light-red: hsl(15, 100%, 70%); // (work)
+--Soft-blue: hsl(195, 74%, 62%); // (play)
+--Light-red: hsl(348, 100%, 68%); // (study)
+--Lime-green: hsl(145, 58%, 55%); // (exercise)
+--Violet: hsl(264, 64%, 52%); // (social)
+--Soft-orange: hsl(43, 84%, 65%); //  (self care)
+
+--Very-dark-blue: hsl(226, 43%, 10%);
+--Dark-blue: hsl(235, 46%, 20%);
+--Desaturated-blue: hsl(235, 45%, 61%);
+--Pale-Blue: hsl(236, 100%, 87%);
+
+
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+
+.flex{
+    display: flex;
+    
+}
+
+.wrapper{
+    display:flex;
+    flex-direction: column;
+    width: 80%;
+   
+}
+body{
+    background-color: hsl(226, 43%, 10%);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.header{
+    margin: 0 auto; 
+    padding-radius: 10px; 
+    /* position: absolute; */
+}
+
+.profile{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    background-color:  hsl(246, 80%, 60%);
+    padding: 25px;
+    border-radius: 10px;
+    /* position: absolute */
+    
+}
+
+.profile > img{
+    /* transform: scale(0.3); */
+    border: 2.5px solid white;
+    border-radius: 50%;
+    width: 20%;
+   
+}
+.name{
+    width: 70%;
+}
+.name > *{
+    padding: 0;
+    margin: 0;
+    color:  hsl(236, 100%, 87%);
+}
+
+.opt{
+    display: flex;
+    background-color:  hsl(235, 46%, 20%);
+    color:hsl(235, 45%, 61%);
+    justify-content: space-around;
+    margin: -10px auto;
+    z-index: -1;
+    position: relative;
+    padding: 10px;
+    border-radius: 10px;
+}
+.container{
+    width: 80%;
+}
