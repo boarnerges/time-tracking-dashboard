@@ -26,13 +26,7 @@
     
 }
 
-.wrapper{
-    display:flex;
-    flex-direction: column;
-    width: 80%;
-    
-   
-}
+
 body{
     background-color: hsl(226, 43%, 10%);
     display:flex;
@@ -41,6 +35,15 @@ body{
     min-height: 100vh;
     margin: 0 auto;
 }
+
+.wrapper{
+    display:flex;
+    flex-direction: column;
+    /* width: 100%;   */
+    align-items: center;
+    margin: 50px;
+}
+
 .header{
     margin: 0 auto; 
     border-radius: 10px; 
