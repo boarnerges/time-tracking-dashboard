@@ -1,5 +1,3 @@
-
-
 --Blue: hsl(246, 80%, 60%);
 
 --Light-red: hsl(15, 100%, 70%); // (work)
@@ -14,241 +12,242 @@
 --Desaturated-blue: hsl(235, 45%, 61%);
 --Pale-Blue: hsl(236, 100%, 87%);
 
-
 *,
 *::before,
-*::after{
-    box-sizing: border-box;
+*::after {
+  box-sizing: border-box;
 }
 
-.flex{
-    display: flex;
-    
+.flex {
+  display: flex;
 }
 
-
-body{
-    background-color: hsl(226, 43%, 10%);
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    margin: 0 auto;
+body {
+  background-color: hsl(226, 43%, 10%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0 auto;
 }
 
-.wrapper{
-    display:flex;
-    flex-direction: column;
-    /* width: 100%;   */
-    align-items: center;
-    margin: 50px;
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  /* width: 100%;   */
+  align-items: center;
+  margin: 50px;
 }
 
-.header{
-    margin: 0 auto; 
-    border-radius: 10px; 
-    width: 300px;
+.header {
+  margin: 0 auto;
+  border-radius: 10px;
+  width: 300px;
 }
 
-.profile{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    justify-content: space-between;
-    background-color:  hsl(246, 80%, 60%);
-    padding: 25px;
-    border-radius: 10px;    
+.profile {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-between;
+  background-color: hsl(246, 80%, 60%);
+  padding: 25px;
+  border-radius: 10px;
 }
 
-.profile > img{
-    border: 2.5px solid white;
-    border-radius: 50%;
-    width: 20%;
-   
+.profile > img {
+  border: 2.5px solid white;
+  border-radius: 50%;
+  width: 20%;
 }
-.name{
-    width: 70%;
+.name {
+  width: 70%;
 }
-.name > *{
-    padding: 0;
-    margin: 0;
-    color:  hsl(236, 100%, 87%);
-}
-
-h1{
-    font-size: 35px;
+.name > * {
+  padding: 0;
+  margin: 0;
+  color: hsl(236, 100%, 87%);
 }
 
-.opt{
-    display: flex;
-    background-color:  hsl(235, 46%, 20%);
-    color:hsl(235, 45%, 61%);
-    justify-content: space-around;
-    margin: -10px auto;
-    z-index: -1;
-    position: relative;
-    padding: 10px;
-    border-radius: 0 0 10px 10px;
+h1 {
+  font-size: 35px;
 }
 
-.container{
-    margin: 0 auto; 
-    
+.opt {
+  display: flex;
+  background-color: hsl(235, 46%, 20%);
+  color: hsl(235, 45%, 61%);
+  justify-content: space-around;
+  margin: -10px auto;
+  z-index: -1;
+  position: relative;
+  padding: 10px;
+  border-radius: 0 0 10px 10px;
 }
 
-.cont{
-    width: 300px; 
+.container {
+  margin: 0 auto;
 }
 
-.work{
-    margin-top: 30px;
-    background-color: hsl(15, 100%, 70%);
-    border-radius: 10px; 
-    height: 70px;
+.cont {
+  width: 300px;
+}
+
+.work {
+  margin-top: 30px;
+  background-color: hsl(15, 100%, 70%);
+  border-radius: 10px;
+  height: 70px;
 }
 
 .flex,
-.flex_{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.flex_ {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.flex h2{
-    color: white;
-    margin: 0;
-    padding: 0;
+.flex h2 {
+  color: white;
+  margin: 0;
+  padding: 0;
 }
 
-.flex p{
-    color: white;
-    margin: 0;
-    padding: 0;
+.flex p {
+  color: white;
+  margin: 0;
+  padding: 0;
 }
 
 .flex_ p:first-child {
-    color: white;
-    font-size: 35px;
-    margin: 0;
-    padding: 0;
+  color: white;
+  font-size: 35px;
+  margin: 0;
+  padding: 0;
 }
 
 .flex_ p:last-child {
+  color: white;
+  font-size: 18px;
+  margin: 0;
+  padding: 0;
+}
+
+.play {
+  margin-top: 20px;
+  background-color: hsl(195, 74%, 62%);
+  border-radius: 10px;
+  height: 70px;
+}
+
+.study {
+  margin-top: 20px;
+  background-color: hsl(348, 100%, 68%);
+  border-radius: 10px;
+  height: 70px;
+}
+
+.exercise {
+  margin-top: 20px;
+  background-color: hsl(145, 58%, 55%);
+  border-radius: 10px;
+  height: 70px;
+}
+
+.social {
+  margin-top: 20px;
+  background-color: hsl(264, 64%, 52%);
+  border-radius: 10px;
+  height: 70px;
+}
+
+.self_care {
+  margin-top: 20px;
+  background-color: hsl(43, 84%, 65%);
+  border-radius: 10px;
+  height: 70px;
+}
+
+.icon {
+  z-index: 1;
+  right: -10px;
+  top: -10px;
+  width: inherit;
+  position: relative;
+}
+
+.background {
+  background-color: hsl(235, 46%, 20%);
+  padding: 20px;
+  margin-top: -30px;
+  border-radius: 10px;
+  position: relative;
+  z-index: 2;
+}
+
+@media (min-width: 768px) {
+  .wrapper {
+    width: 90%;
+    flex-direction: row;
+    gap: 30px;
+  }
+  .header {
+    min-width: 350px;
+  }
+
+  .profile {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .profile > img {
+    border: 2.5px solid white;
+    border-radius: 50%;
+    width: 30%;
+  }
+
+  .name {
+    margin: 35px 0;
+  }
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+
+  .opt {
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .flex_ {
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 20px 0;
+  }
+
+  .cont {
+    width: 350px;
+  }
+
+  .cont > div:first-child {
+    margin: 0;
+  }
+
+  .background {
+    margin-top: -30px;
+    border-radius: 10px;
+  }
+
+  .flex_ p:first-child {
+    color: white;
+    font-size: 35px;
+    padding: 8px 0;
+  }
+
+  .flex_ p:last-child {
     color: white;
     font-size: 18px;
-    margin: 0;
-    padding: 0;
-}
-
-.play{
-    margin-top: 20px;
-    background-color: hsl(195, 74%, 62%);
-    border-radius: 10px; 
-    height: 70px;
-}
-
-
-.study{
-    margin-top: 20px;
-    background-color: hsl(348, 100%, 68%);
-    border-radius: 10px; 
-    height: 70px;
-}
-
-
-.exercise{ 
-    margin-top: 20px;
-    background-color: hsl(145, 58%, 55%);
-    border-radius: 10px; 
-    height: 70px;
-}
-
-
-.social{
-    margin-top: 20px;
-    background-color: hsl(264, 64%, 52%);
-    border-radius: 10px; 
-    height: 70px;
-   
-}
-
-
-.self_care{
-    margin-top: 20px;
-    background-color: hsl(43, 84%, 65%);
-    border-radius: 10px; 
-    height: 70px;   
-}
-
-.icon{
-    z-index: 1;
-    right: -10px;
-    top: -10px;
-    width: inherit;
-    position: relative;
-
-}
-
-.background{
-    background-color:  hsl(235, 46%, 20%);
-    padding: 20px;
-    margin-top: -30px;
-    border-radius: 10px; 
-    position: relative;  
-    z-index: 2;   
-}
-
-@media (min-width: 768px){
-
-    .wrapper{
-        width: 70%;
-        flex-direction: row;
-        gap: 30px;
-
-    }
-    .header{ 
-        min-width: 350px;
-    }
-
-    .profile{
-        flex-direction: column;
-        align-items: flex-start
-    }
-
-    .profile > img{
-        border: 2.5px solid white;
-        border-radius: 50%;
-        width: 30%;
-       
-    }
-
-    .name{
-        margin: 40px 0;
-    }
-    .container{
-        display: flex;
-        flex-wrap: wrap;
-        gap: 30px;
-    }
-
-    .opt{
-        flex-direction: column;
-        padding: 20px;
-    }
-
-    .flex_{
-        flex-direction: column;
-        align-items: flex-start;
-        margin: 20px 0;
-    }
-
-    .cont{
-        width: 350px;
-    }
-
-    .cont > div{
-        margin: 0;
-    }
-
-
+    padding: 5px 0;
+  }
 }
