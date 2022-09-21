@@ -78,7 +78,8 @@ h1 {
   background-color: hsl(235, 46%, 20%);
   color: hsl(235, 45%, 61%);
   justify-content: space-around;
-  margin: -10px auto;
+  margin: 0 auto;
+  margin-top: -10px;
   z-index: -1;
   position: relative;
   padding: 10px;
@@ -187,17 +188,23 @@ h1 {
 
 @media (min-width: 768px) {
   .wrapper {
-    width: 90%;
+    width: 745px;
     flex-direction: row;
-    gap: 30px;
+    gap: 15px;
+    margin: 0;
   }
   .header {
-    min-width: 350px;
+    width: 175px;
+    margin: 0;
   }
 
   .profile {
     flex-direction: column;
     align-items: flex-start;
+  }
+
+  .profile p {
+    font-size: 10px;
   }
 
   .profile > img {
@@ -212,7 +219,9 @@ h1 {
   .container {
     display: flex;
     flex-wrap: wrap;
-    gap: 30px;
+    gap: 15px;
+    width: 100%;
+    margin: 0;
   }
 
   .opt {
@@ -227,7 +236,7 @@ h1 {
   }
 
   .cont {
-    width: 350px;
+    width: 175px;
   }
 
   .cont > div:first-child {
@@ -247,7 +256,10 @@ h1 {
 
   .flex_ p:last-child {
     color: white;
+    font-size: 10px;
+  }
+
+  .flex h2 {
     font-size: 18px;
-    padding: 5px 0;
   }
 }
